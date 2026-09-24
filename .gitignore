@@ -1,0 +1,29 @@
+# Python / Backend
+backend/venv/
+backend/env/
+**/__pycache__/
+**/*.py[cod]
+*$py.class
+backend/*.db
+backend/*.sqlite3
+backend/uploads/reports/*
+backend/uploads/avatars/*
+!backend/uploads/.gitkeep
+!backend/uploads/reports/.gitkeep
+!backend/uploads/avatars/.gitkeep
+.pytest_cache/
+*.egg-info/
+
+# Frontend / Node
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.env.local
+
+# General & OS
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
